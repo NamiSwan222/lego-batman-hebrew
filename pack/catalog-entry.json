@@ -1,0 +1,18 @@
+{
+  "id": "lego-batman",
+  "name": "LEGO Batman: The Videogame",
+  "nameHe": "לגו באטמן: משחק הווידאו",
+  "engine": "TT Games",
+  "aboutHe": "תרגום מלא לעברית: התפריטים, ההגדרות, הרמזים, שמות השלבים והדמויות, הביוגרפיות במסכי הטעינה, הודעות השמירה והקרדיטים. לגרסת Steam המקורית (2008). העברית פעילה רק כשמפעילים את המשחק מהמשגר.",
+  "detect": {
+    "steamAppId": "21000",
+    "epicAppName": null,
+    "markerFile": "LEGOBatman.exe",
+    "processNames": ["LEGOBatman.exe"]
+  },
+  "pack": {
+    "tag": "lego-batman-*",
+    "asset": "lego-batman-he-*.zip"
+  },
+  "requires": []
+}

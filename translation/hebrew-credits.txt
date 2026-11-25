@@ -1,0 +1,155 @@
+; Hebrew for the end credits (stuff/text/english_credits.txt, american_credits.txt,
+; pc_english_credits.txt) - Tirgumim, own work. Format: "English" "Hebrew" (logical order).
+; "English" = keeps the text as is on purpose.
+; Rule (see GLOSSARY.md): people's names on name/credit/thanks lines stay as written and are not
+; listed here. Every heading, job title and company line, and every credit line that is a
+; sentence rather than a name, must be listed (lib/coverage.js checks this).
+
+; --- title and companies
+"LEGO® Batman™" "לגו® באטמן™"
+"THE VIDEOGAME" "משחק הווידאו"
+"Traveller's Tales" =
+"TT GAMES PUBLISHING" =
+"WARNER BROS. INTERACTIVE ENTERTAINMENT" =
+"DC COMICS" =
+"LEGO® COMPANY" "חברת LEGO®"
+"Dancin' Mouse Productions" =
+
+; --- headings and job titles
+"DEVELOPED BY" "פותח על ידי"
+"DIRECTOR" "במאי"
+"HEAD OF PROGRAMMING" "ראש תכנות"
+"HEAD OF ART" "ראש אמנות"
+"HEAD OF ANIMATION" "ראש אנימציה"
+"HEAD OF AUDIO" "ראש סאונד"
+"HEAD OF TECHNOLOGY" "ראש טכנולוגיה"
+"HEAD OF PRODUCTION" "ראש הפקה"
+"LEAD GAME PROGRAMMING" "תכנות משחק ראשי"
+"LEAD CHARACTER ART" "אמנות דמויות ראשית"
+"LEAD TECHNICAL ART" "אמנות טכנית ראשית"
+"LEAD ENVIRONMENT ART" "אמנות סביבה ראשית"
+"LEAD IN-GAME ANIMATION" "אנימציית משחק ראשית"
+"LEAD CUTSCENE ANIMATION" "אנימציית קטעי מעבר ראשית"
+"PRODUCER" "מפיק"
+"ADDITIONAL PRODUCTION" "הפקה נוספת"
+"DESIGN DIRECTION" "הכוונת עיצוב"
+"LEVEL DESIGN" "עיצוב שלבים"
+"GAME PROGRAMMING" "תכנות משחק"
+"LEVEL SETUP & ART" "הקמת שלבים ואמנות"
+"ENVIRONMENT ART" "אמנות סביבה"
+"CHARACTER ART" "אמנות דמויות"
+"LEGO VEHICLE DESIGN & MODELLING" "עיצוב ומידול כלי רכב מלגו"
+"FRONT END ART" "אמנות תפריטים"
+"STORY TEAM" "צוות הסיפור"
+"STORYBOARD ART" "אמנות סטוריבורד"
+"CONCEPT ART" "אמנות קונספט"
+"ANIMATION TEAM" "צוות אנימציה"
+"ADDITIONAL ANIMATION" "אנימציה נוספת"
+"CUTSCENE AUDIO" "סאונד קטעי מעבר"
+"CUTSCENE SPECIAL FX" "אפקטים מיוחדים בקטעי מעבר"
+"AUDIO ENGINEER" "מהנדס סאונד"
+"MUSIC" "מוזיקה"
+"ENGINE TECHNOLOGY" "טכנולוגיית מנוע"
+"ENGINEER" "מהנדס"
+"GAME SYSTEMS" "מערכות משחק"
+"GAME SYSTEMS LEAD" "ראש מערכות משחק"
+"TOOLS PROGRAMMING" "תכנות כלים"
+"TOOLS LEAD" "ראש כלים"
+"RENDER TECH LEAD" "ראש טכנולוגיית רינדור"
+"CONSOLE PORT LEAD" "ראש הסבה לקונסולות"
+"SYSTEMS SUPPORT" "תמיכת מערכות"
+"MANAGING DIRECTOR" "מנכ''ל"
+"FINANCIAL CONTROLLER" "חשב"
+"ASSISTANT ACCOUNTANT" "עוזר חשבונאי"
+"BUSINESS DEVELOPMENT" "פיתוח עסקי"
+"ASSOCIATE PRODUCER" "מפיק שותף"
+"1st PARTY COORDINATOR" "רכז יצרני קונסולות"
+"ASSISTANT 1st PARTY COORDINATOR" "עוזר רכז יצרני קונסולות"
+"QUALITY ASSURANCE MANAGER" "מנהל בקרת איכות"
+"DEPUTY QUALITY ASSURANCE MANAGER" "סגן מנהל בקרת איכות"
+"QUALITY ASSURANCE LEAD" "ראש בקרת איכות"
+"QUALITY ASSURANCE SQUAD LEADERS" "ראשי צוותי בקרת איכות"
+"QUALITY ASSURANCE TECHNICIAN" "טכנאי בקרת איכות"
+"QUALITY ASSURANCE TESTERS" "בודקי איכות"
+"QUALITY ASSURANCE COMPLIANCE" "תאימות בקרת איכות"
+"ADDITIONAL QUALITY ASSURANCE" "בקרת איכות נוספת"
+"EMBEDDED TEST TEAM" "צוות בדיקות משולב"
+"EMBEDDED TEST TEAM LEAD" "ראש צוות בדיקות משולב"
+"KID TESTER AND TEAM MASCOT" "בודק צעיר וקמע הצוות"
+"LOCALISATION GROUP" "צוות לוקליזציה"
+"LOCALIZATION GROUP" "צוות לוקליזציה"
+"PRESIDENT" "נשיא"
+"EXECUTIVE VICE PRESIDENT, WORLDWIDE OPERATIONS" "סגן נשיא בכיר, תפעול עולמי"
+"SENIOR VICE PRESIDENT, OPERATIONS" "סגן נשיא בכיר, תפעול"
+"SENIOR VICE PRESIDENT, PRODUCTION & DEVELOPMENT" "סגן נשיא בכיר, הפקה ופיתוח"
+"VICE PRESIDENT, BUSINESS DEVELOPMENT" "סגן נשיא, פיתוח עסקי"
+"VICE PRESIDENT, FINANCE" "סגן נשיא, כספים"
+"VICE PRESIDENT, SALES & DISTRIBUTION" "סגן נשיא, מכירות והפצה"
+"DIRECTOR, BUSINESS DEVELOPMENT" "מנהל, פיתוח עסקי"
+"DIRECTOR, MARKETING" "מנהל, שיווק"
+"DIRECTOR, PR" "מנהל, יחסי ציבור"
+"DIRECTOR, PRODUCTION" "מנהל, הפקה"
+"DIRECTOR, TRADE MARKETING" "מנהל, שיווק קמעונאי"
+"COORDINATOR, BUSINESS DEVELOPMENT" "רכז, פיתוח עסקי"
+"COORDINATOR, INTERACTIVE" "רכז, אינטראקטיב"
+"MANAGER, FIRST PARTY OPERATIONS" "מנהל, תפעול מול יצרני קונסולות"
+"MANAGER, RIGHTS & CLEARANCES" "מנהל, זכויות ואישורים"
+"MANAGER, TRADE MARKETING" "מנהל, שיווק קמעונאי"
+"MARKETING ASSISTANT" "עוזר שיווק"
+"MARKETING ASSOCIATE" "שותף שיווק"
+"MARKETING SPECIALIST" "מומחה שיווק"
+"PR REPRESENTATIVE" "נציג יחסי ציבור"
+"SALES" "מכירות"
+"DEPUTY GENERAL COUNSEL" "סגן היועץ המשפטי"
+"EDITOR, INTERACTIVE" "עורך, אינטראקטיב"
+"SENIOR EDITOR, INTERACTIVE" "עורך בכיר, אינטראקטיב"
+"GROUP EDITOR, LICENSED PUBLISHING" "עורך קבוצה, הוצאה מורשית"
+"RECORDING STUDIO" "אולפן הקלטות"
+"VO DIRECTOR" "במאי דיבוב"
+"TALENT CREDITS" "שחקנים"
+"SPECIAL THANKS" "תודות מיוחדות"
+
+; --- credit lines that are sentences, not names
+"Written by Danny Elfman" "מאת דני אלפמן"
+"Original Music from 'Batman' 1989 Film" "מוזיקה מקורית מהסרט 'באטמן' 1989"
+"Thank You for Always Being There" "תודה שתמיד הייתם שם"
+"Many Thanks to my Dear Margaret!" "תודה רבה למרגרט היקרה שלי!"
+"The Mendez Family" "משפחת מנדז"
+"Shay, ManOwaR & My Good Friends" "שיי, ManOwaR והחברים הטובים שלי"
+"Uses Bink Video Technology." "משתמש בטכנולוגיית הווידאו Bink."
+"Copyright (C) 1997-2008 by RAD Game Tools, Inc." =
+
+; --- Ogg Vorbis licence notice: a legal text that must be reproduced as written
+"Ogg Vorbis Audio Compression Format" =
+"Copyright (c) 2002, Xiph.org Foundation." =
+"Redistribution and use in source and binary" =
+"forms, with or without modification,are" =
+"permitted provided that the following" =
+"conditions are met:" =
+"- Redistributions of source code must retain" =
+"the above copyright notice, this list of" =
+"conditions and the following disclaimer." =
+"- Redistributions in binary form must" =
+"reproduce the above copyright notice, this" =
+"list of conditions and the following disclaimer" =
+"in the documentation and/or other materials" =
+"provided with the distribution." =
+"- Neither the name of the Xiph.org Foundation" =
+"nor the names of its contributors may be used" =
+"to endorse or promote products derived from this" =
+"software without specific prior written permission." =
+"THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS" =
+"AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED" =
+"WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE" =
+"IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS" =
+"FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT" =
+"SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR" =
+"ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY," =
+"OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED" =
+"TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;" =
+"LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)" =
+"HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER" =
+"IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING" =
+"NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF" =
+"THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE" =
+"POSSIBILITY OF SUCH DAMAGE." =

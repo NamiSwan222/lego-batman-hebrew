@@ -1,0 +1,14 @@
+{
+  "packId": "lego-batman-he",
+  "gameId": "lego-batman",
+  "version": "0.1.0",
+  "title": "LEGO Batman: The Videogame – עברית",
+  "authors": ["Tirgumim"],
+  "engine": "TT Games",
+  "requiresAccount": false,
+  "activation": { "mode": "args", "exe": "LEGOBatman.exe", "args": ["-tirgumim-he"], "via": "steam" },
+  "patches": [
+    { "path": "GAME.DAT", "kind": "append", "appendFile": "../work/GAME.DAT.append", "output": "tirgumim/he/GAME.DAT" }
+  ],
+  "filesDir": "../work/files"
+}

@@ -1,0 +1,15 @@
+[package]
+name = "xinput1_3"
+version = "0.1.0"
+edition = "2021"
+description = "Tirgumim: launcher-only Hebrew for LEGO Batman: The Videogame (proxy XINPUT1_3.dll, 32-bit)"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = "s"
+panic = "abort"
+lto = true

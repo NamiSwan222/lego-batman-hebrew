@@ -1,0 +1,21 @@
+# This PC's VS 2022 Build Tools are not auto-detected by rustc, and Git Bash puts coreutils' `link`
+# ahead of MSVC's link.exe on PATH. Name the MSVC linker and the library folders per target so
+# `cargo build` / `cargo test` work from any shell. (tools/proxy/build.cmd sets RUSTFLAGS itself,
+# which replaces these rustflags; it runs inside vcvarsall, so it does not need them.)
+[target.x86_64-pc-windows-msvc]
+linker = 'C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe'
+rustflags = [
+  "-L", 'native=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\lib\x64',
+  "-L", 'native=C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\um\x64',
+  "-L", 'native=C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\ucrt\x64',
+]
+
+[target.i686-pc-windows-msvc]
+linker = 'C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x86\link.exe'
+rustflags = [
+  "-L", 'native=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\lib\x86',
+  "-L", 'native=C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\um\x86',
+  "-L", 'native=C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\ucrt\x86',
+  "-C", 'link-arg=/DEF:D:\AIStuff\Tirgumim\games\lego-batman\tools\proxy\exports.def',
+  "-C", "target-feature=+crt-static",
+]

@@ -1,0 +1,4 @@
+# built from the user's game files; never commit
+work/
+out/
+tools/proxy/target/
