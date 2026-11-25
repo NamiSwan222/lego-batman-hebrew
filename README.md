@@ -108,8 +108,11 @@ matched the manifest's `toSha256`.
 - Plain Steam start **with the pack still installed**: original English.
 - `GAME.DAT` and `LEGOBatman.exe` kept their SHA-256 and modified time throughout. The test
   files were removed afterwards.
-- Not yet done: installing through the real launcher (pending; GitHub's anonymous API limit was
-  used up on this PC right after the release was published).
+- **Real launcher (0.5.3), from the GitHub release:** Ctrl+F5 found the game, it installed
+  (added files only; `tirgumim\he\GAME.DAT` matched `toSha256`), and "שחק בעברית" started
+  `LEGOBatman.exe -tirgumim-he` through Steam with a Hebrew main menu. Starting from Steam directly,
+  with the translation still installed, gave the original English game. `npm run check-catalog
+  -- --online --discover` passes.
 
 ## Known limits
 
