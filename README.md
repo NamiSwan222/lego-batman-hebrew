@@ -1,7 +1,8 @@
 # LEGO Batman: The Videogame (2008), Hebrew
 
-**Status: translation complete (coverage 100%). The pack is built and tested on the Steam version
-on this PC. Not published yet** (no GitHub repo or release).
+**Status: translation complete (coverage 100%), published.** Repo
+[NamiSwan222/lego-batman-hebrew](https://github.com/NamiSwan222/lego-batman-hebrew) (topic `tirgumim-pack`),
+release `lego-batman-0.1.0` with `lego-batman-he-0.1.0.zip`. Tested on the Steam version.
 
 A Tirgumim launch-only pack: started from the launcher ("שחק בעברית"), the game is in Hebrew.
 Started from Steam or anywhere else, it is the original English game. **No game file is ever
@@ -107,8 +108,8 @@ matched the manifest's `toSha256`.
 - Plain Steam start **with the pack still installed**: original English.
 - `GAME.DAT` and `LEGOBatman.exe` kept their SHA-256 and modified time throughout. The test
   files were removed afterwards.
-- Not yet done: installing through the real launcher. That needs the pack on GitHub, or the
-  launcher pointed at a local catalog.
+- Not yet done: installing through the real launcher (pending; GitHub's anonymous API limit was
+  used up on this PC right after the release was published).
 
 ## Known limits
 
